@@ -20,3 +20,11 @@ describe("secondHand", function(){ // Function to determine what angle the secon
     expect( time ).toBe(120) // Function should multiply seconds by 6 so 20 seconds would be 120
   });
 });
+
+// Equation for finding the angle between the hands of a clock is: 1/2(60h - 11m) | Source: https://en.wikipedia.org/wiki/Clock_angle_problem
+describe("angleBetween", function(){ // Function to determine what the angle between the hour and minute hands is
+  it("the angle between hands at 2:20 should be 50 degrees", function(){  // At 2:20 the hour hand is at 70 degrees and minute hand it at 120 degrees
+    var time = sundial.angleBetween( 2, 20 ); // Set angleBetween arguments, 2 hours 20 minutes
+    expect( time ).toBe(50) // Function should equal 50 degrees
+  });
+});
