@@ -17,4 +17,9 @@ secondHand: function( seconds ){
   return (6 * seconds) ;
 },
 
+// Angle Between Function
+angleBetween: function( hours, minutes ){
+  return Math.abs(((60 * hours) - (11 * minutes)) * .5) ;
+},
+
 }
