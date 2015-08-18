@@ -1,7 +1,7 @@
 sundial = {
 	hours: function(hour) {
 		if (hour > 12) {
-			return "AM and PM, baby, use them.";
+			return "AM and PM, baby, assume we use them.";
 		} else {
 			return hour * 30;
 		}
