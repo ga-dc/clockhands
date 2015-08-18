@@ -12,4 +12,9 @@ minuteHand: function( minutes ){
   return (6 * minutes) ;
 },
 
+// Second Hand Angle Function
+secondHand: function( seconds ){
+  return (6 * seconds) ;
+},
+
 }
