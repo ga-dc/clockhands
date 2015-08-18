@@ -1,8 +1,22 @@
 var clock_hands = require( "../clock_hands" )
 
-describe( "hourAngle", function(){
-  
+describe( "hourTimeDegrees", function(){
+  it(" should give degrees for hour hand placement ", function(){
+    var hourTimeDegrees = clock_hands.multiply( 2, 30);
+    var hourAngle;
+    expect(hourAngle).toBe( 60 )
+  })
 })
+
+describe( "minuteTimeDegrees", function(){
+  it(" should give degrees for minute hand placement ", function(){
+    var minuteTimeDegrees = clock_hands.multiply( 15, 6);
+    var minuteAngle;
+    expect(minuteAngle).toBe( 90 )
+  })
+})
+
+
 
 
 
