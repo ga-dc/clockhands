@@ -7,4 +7,9 @@ hourHand: function( hours, minutes ){
   return (60 * hours + minutes) / 2 ;
 },
 
+// Minute Hand Angle Function
+minuteHand: function( minutes ){
+  return (6 * minutes) ;
+},
+
 }
