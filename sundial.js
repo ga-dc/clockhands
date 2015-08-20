@@ -4,9 +4,8 @@ module.exports = {
     if(hour == 12){
       hour = 0
     };
-    minHand = minute * 6;
-    hourHand = (hour * 30)+(minute / 2)
-
+    var minHand = minute * 6;
+    var hourHand = (hour * 30)+(minute / 2)
     var angle = minHand - hourHand
     if(Math.abs(angle) <= 180){
       return Math.abs(angle);
