@@ -1,0 +1,24 @@
+{
+  "name": "sundial",
+  "version": "1.0.0",
+  "description": "Write a function that given the time of the day in hours and minutes returns the angle between the hands on a clock.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraWN/sundial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraWN/sundial/issues"
+  },
+  "homepage": "https://github.com/LauraWN/sundial#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "hbs": "^3.1.0"
+  }
+}
