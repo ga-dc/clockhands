@@ -1,9 +1,4 @@
 module.exports = {
-  //
-  // time: {
-  //   hours: time.hours
-  //   minutes: time.
-  // },
 
   findHourHandAngle: function (hours) {
     return hours * 30;
